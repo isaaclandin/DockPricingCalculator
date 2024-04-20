@@ -267,7 +267,7 @@ function App() {
     <div style={styles.mainContainer}>
       <div style={styles.productSection}>
       <div style={styles.titleSection}>
-        <h1>Product Calculator</h1>
+        <h1>Product Calculator HELLLLOOOOOO</h1>
       </div>
       <div {...getRootProps()} style={styles.dragDropArea}>
         <input {...getInputProps()} />
