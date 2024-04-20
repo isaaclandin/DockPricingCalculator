@@ -36,3 +36,51 @@
     transform: rotate(360deg);
   }
 }
+
+/* Add this in your CSS file or inside <style> tags in your index.html */
+.react-tabs {
+  font-family: Arial, sans-serif;
+}
+
+.react-tabs__tab-list {
+  border-bottom: 2px solid #ccc;
+  padding: 0;
+  margin: 0 0 10px;
+  list-style-type: none;
+}
+
+.react-tabs__tab {
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-bottom: none;
+  bottom: -1px;
+  position: relative;
+  list-style: none;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.react-tabs__tab--selected {
+  background-color: #fff;
+  border-color: #ccc;
+  color: black;
+  border-radius: 5px 5px 0 0;
+  border-bottom: 1px solid white;
+}
+
+.react-tabs__tab-panel {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Add this to your CSS file or a <style> tag */
+.hoverable-item {
+  transition: background-color 0.3s ease;
+}
+
+.hoverable-item:hover {
+  background-color: #f0f0f0; /* Light grey background on hover */
+  cursor: pointer; /* Changes the cursor to indicate it's clickable */
+}
+
